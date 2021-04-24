@@ -1,73 +1,54 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        p2021
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <div class="container">
+        <div class="row mt-auto">
+            <div class="col"></div>
+            <div class="col d-flex right">
+              <h1 class="title">Chris Kieran</h1>
+              <h2>Frontend Web Developer</h2>
+              <div class="nav-pane red"></div>
+              <div class="nav-pane violet"></div>
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import '~/assets/scss/_global.scss';
+
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-right: 0;
 }
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.row {
+  width: 100%;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+h2 {
+  font-size: 26px;
 }
-
-.links {
-  padding-top: 15px;
+.nav-pane {
+    height: $paneHeight;
+    margin: $paneMargin;
+}
+.right {
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 0;
+}
+.red {
+    background-image: url('~/assets/images/red.png');
+    background-size: cover;
+    background-position-y: 75%;
+    width: 75%;
+}
+.violet {
+    background-image: url('~/assets/images/violet.png');
+    background-size: cover;
+    background-position-y: 75%;
+    width: 100%;
 }
 </style>
