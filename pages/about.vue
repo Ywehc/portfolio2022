@@ -9,7 +9,8 @@
     <p>I enjoy nature, dogs, travel, music, astronomy, investing, fantasy sports, entrepreneurship and all sorts of other cool stuff. I'm fortunate to be able to spend lots of time with my amazing wife, son and dog, and they are a motivation boost every day.</p>
         </div>
         <div class="col img-container">
-                <img src="~/assets/images/forest-wide.png" alt="Chris and son walking in forest">
+                <img src="~/assets/images/forest-extra-wide.png"
+                    alt="Chris and son walking in forest">
         </div>
     </div>
 </div>
@@ -26,13 +27,18 @@ h1 {
 p {
     font-size: $paragraphFontSize;
 }
+.row {
+    height: 100%;
+}
 .img-container {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
+    padding-left: 0;
+    position: relative;
+    margin-right: 10px;
     img {
-    width: 100%;
-    align-self: flex-end;
+        height: $paneHeight * 1.9;
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 }
 .container {
