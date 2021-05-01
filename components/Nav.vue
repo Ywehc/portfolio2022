@@ -24,11 +24,11 @@
         position: absolute;
         background: white;
         z-index: 2;
-        height: 80em;
-        width: 80em;
+        height: 100em;
+        width: 100em;
         border-radius: 50%;
-        margin-top: -55em;
-        margin-left: -29em;
+        margin-top: -82em;
+        margin-left: -44em;
     }
 }
 .nav-container {

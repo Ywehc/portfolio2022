@@ -4,7 +4,7 @@
             <div class="col"></div>
             <div class="col d-flex right">
               <h1 class="title">Chris Kieran</h1>
-              <h2>Frontend Web Developer</h2>
+              <h2 class="subtitle">Frontend Web Developer</h2>
               <div class="nav-pane red"></div>
               <div class="nav-pane violet"></div>
             </div>
@@ -29,6 +29,9 @@ export default {
 }
 h2 {
   font-size: 26px;
+}
+.title, .subtitle {
+  z-index: 3;
 }
 .nav-pane {
     height: $paneHeight;
