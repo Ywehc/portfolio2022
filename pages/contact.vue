@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container front">
         <h1 class="section-heading">Contact Me</h1>
         <form   class="contact-form row" 
                 action="https://formspree.io/chriskierandevelopment@gmail.com" 
@@ -67,3 +67,12 @@
         </form>
     </div>
 </template>
+
+<style lang="scss" scoped>
+@import '~/assets/scss/_global.scss';
+
+.front {
+    z-index: $pageZIndex;
+    position: relative;
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container front">
 <h1>SKILLS</h1>
 <div class="skill-grid row">
             <div class="col-12 col-sm-3 skill-column">
@@ -32,3 +32,12 @@
 </div>
     
 </template>
+
+<style lang="scss" scoped>
+@import '~/assets/scss/_global.scss';
+
+.front {
+    z-index: $pageZIndex;
+    position: relative;
+}
+</style>

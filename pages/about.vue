@@ -1,6 +1,6 @@
   
 <template>
-<div class="container">
+<div class="container front">
     <h1>About Me</h1>
     <p>As a developer I'm drawn to the intersection of creativity and technical proficiency.</p>
     <p>The career path I'm on is really exciting. I love bringing code to life on the frontend with Javascript (mostly Vue.js) and CSS, but have also built foundations in PHP and Python. These fundamentals are allowing me to get my feet wet with technologies like Deep Learning.</p>
@@ -36,6 +36,9 @@ p {
 }
 .container {
     padding: $containerPadding;
+}
+.front {
+    z-index: $pageZIndex;
     position: relative;
 }
 .img-container {

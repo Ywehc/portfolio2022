@@ -1,17 +1,37 @@
 <template>
     <div class="container">
-        <div class="nav-pane indigo"><NuxtLink to="/">Home</NuxtLink></div>
-        <div class="nav-pane blue"><NuxtLink to="/about">About</NuxtLink></div>
-        <div class="nav-pane green"><NuxtLink to="/skills">Skills</NuxtLink></div>
-        <div class="nav-pane yellow"><NuxtLink to="/portfolio">Portfolio</NuxtLink></div>
-        <div class="nav-pane orange"><NuxtLink to="/contact">Contact</NuxtLink></div>
+        <div class="row">
+            <div class="col-1 curve-container">
+                <div class="curve"></div>
+            </div>
+            <div class="col-11 nav-container">
+                <div class="nav-pane indigo"><NuxtLink to="/">Home</NuxtLink></div>
+                <div class="nav-pane blue"><NuxtLink to="/about">About</NuxtLink></div>
+                <div class="nav-pane green"><NuxtLink to="/skills">Skills</NuxtLink></div>
+                <div class="nav-pane yellow"><NuxtLink to="/portfolio">Portfolio</NuxtLink></div>
+                <div class="nav-pane orange"><NuxtLink to="/contact">Contact</NuxtLink></div>
+            </div>
+        </div>
+        
     </div>
 </template>
 
 <style lang="scss" scoped>
 @import '@/assets/scss/_global.scss';
-
-.container {
+.curve-container {
+    position: relative;
+    .curve {
+        position: absolute;
+        background: white;
+        z-index: 2;
+        height: 80em;
+        width: 80em;
+        border-radius: 50%;
+        margin-top: -55em;
+        margin-left: -29em;
+    }
+}
+.nav-container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
