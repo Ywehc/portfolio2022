@@ -32,6 +32,5 @@ html {
 }
 .main {
   height: 520px;
-  margin-top: 10em;
 }
 </style>

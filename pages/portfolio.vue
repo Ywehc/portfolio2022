@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container front">
         <h1>PORTFOLIO</h1>
         <div class="row">
             <div class="col-4">
@@ -36,11 +36,12 @@
 <style lang="scss" scoped>
 @import '~/assets/scss/_global.scss';
 
-// .container {
-//     margin: $containerMargin;
-// }
 h1 {
     text-align: center;
+}
+.front {
+    z-index: $pageZIndex;
+    position: relative;
 }
 .card {
     width: 18rem;
