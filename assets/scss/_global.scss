@@ -1,12 +1,25 @@
 $paneHeight: 50px;
-$paneMargin: 4px 0px;
+$paneMargin: 3px 0px;
 
 $containerPadding: 20px;
 $containerMargin: auto;
 
-$headingFontSize: 30px;
-$headingMarginBottom: 20px;
+$headingFontSize: 50px;
+$headingMarginBottom: 4px;
 
 $paragraphFontSize: 14px;
 
-$pageZIndex: 10;
+$pageZIndex: 7;
+$pagePaddingTop: 3em;
+
+$imgContainerPosition: absolute;
+$imgContainerBottom: 5px;
+$imgContainerRight: 15px;
+$imgHeight: 200px;
+
+.img-container {
+    position: $imgContainerPosition;
+    bottom: $imgContainerBottom;
+    right: $imgContainerRight;
+    height: $imgHeight;
+}

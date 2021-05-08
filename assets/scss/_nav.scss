@@ -1,0 +1,61 @@
+@import '_global.scss';
+
+.curve-container {
+    position: relative;
+    .curve {
+        position: absolute;
+        background: white;
+        z-index: 6;
+        height: 100em;
+        width: 100em;
+        border-radius: 50%;
+        margin-top: -82em;
+        margin-left: -44em;
+    }
+}
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.nav-pane {
+    height: $paneHeight;
+    text-align: right;
+    margin: $paneMargin;
+    padding-top: 10px;
+    a {
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        background: white;
+        padding: 6px;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+}
+.indigo {
+    background-image: url('~/assets/images/indigo.png');
+    background-size: cover;
+    width: 60%;
+}
+.blue {
+    background-image: url('~/assets/images/blue.png');
+    background-size: cover;
+    background-position-y: 95%;
+    width: 70%;
+}
+.green {
+    background-image: url('~/assets/images/green.png');
+    background-size: cover;
+    width: 80%;
+}
+.yellow {
+    background-image: url('~/assets/images/yellow.png');
+    background-size: cover;
+    width: 90%;
+}
+.orange {
+    background-image: url('~/assets/images/orange.png');
+    background-size: 100%;
+    width: 100%;
+}

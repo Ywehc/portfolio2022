@@ -31,6 +31,6 @@ html {
   margin: 0;
 }
 .main {
-  height: 520px;
+  height: 500px;
 }
 </style>
