@@ -37,7 +37,6 @@
                     <div class="img-skills"></div>
                 </div>
             </div>
-            <!-- <div class="img-container img-skills col-6"></div> -->
         </div>
     </div>
 </template>
