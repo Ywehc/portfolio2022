@@ -5,11 +5,21 @@
                 <div class="curve"></div>
             </div>
             <div class="col-11 nav-container">
-                <div class="nav-pane indigo"><NuxtLink to="/">Home</NuxtLink></div>
-                <div class="nav-pane blue"><NuxtLink to="/about">About</NuxtLink></div>
-                <div class="nav-pane green"><NuxtLink to="/skills">Skills</NuxtLink></div>
-                <div class="nav-pane yellow"><NuxtLink to="/portfolio">Portfolio</NuxtLink></div>
-                <div class="nav-pane orange"><NuxtLink to="/contact">Contact</NuxtLink></div>
+                <div class="nav-pane indigo">
+                        <NuxtLink class="link" to="/">Home</NuxtLink>
+                </div>
+                <div class="nav-pane blue">
+                        <NuxtLink class="link" to="/about">About</NuxtLink>
+                </div>
+                <div class="nav-pane green">
+                        <NuxtLink class="link" to="/skills">Skills</NuxtLink>
+                </div>
+                <div class="nav-pane yellow">
+                        <NuxtLink class="link" to="/portfolio">Portfolio</NuxtLink>
+                </div>
+                <div class="nav-pane orange">
+                        <NuxtLink class="link" to="/contact">Contact</NuxtLink>
+                </div>
             </div>
         </div>
     </div>

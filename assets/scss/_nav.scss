@@ -19,18 +19,23 @@
     align-items: flex-end;
 }
 .nav-pane {
-    height: $paneHeight;
     text-align: right;
     margin: $paneMargin;
-    padding-top: 10px;
+    height: $paneHeight;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     a {
-        color: black;
+        color: white;
         font-size: 20px;
         font-weight: bold;
+        background: black;
+        height: $paneHeight;
+        padding: 6px 10px 0px 10px;
+    }
+    a.nuxt-link-exact-active {
+        color: black;
         background: white;
-        padding: 6px;
-        border-top-left-radius: 5%;
-        border-bottom-left-radius: 5%;
     }
 }
 .indigo {
