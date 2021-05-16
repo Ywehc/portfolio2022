@@ -2,27 +2,69 @@
     <div class="container">
         <div class="row">
             <div class="front col-7">
-                <div class="skill-grid row">
-                    <div class="col">
-                        <div class="skill"><i class="fab fa-js"></i>JavaScript</div>
-                        <div class="skill"><i class="fab fa-css3-alt"></i>CSS/SASS/Bootstrap</div>
-                        <div class="skill"><i class="fab fa-vuejs"></i>Vue.js/Nuxt.js</div>
-                        <div class="skill"><i class="fab fa-react"></i>React.js</div>
-                        <div class="skill"><i class="fas fa-code"></i>REST API's</div>
-                        <div class="skill"><i class="fab fa-python"></i>Python</div>
-                        <div class="skill"><i class="fab fa-git"></i>Version Control</div>
-                        <div class="skill"><i class="fas fa-server"></i>Web Administration/Hosting</div>  
-                        <!-- <div class="skill"><i class="fab fa-aws"></i>AWS</div>  -->
-                        <div class="skill"><i class="fab fa-wordpress"></i>CMS - WordPress/Shopify/HubSpot/Salesforce</div> 
-                        <div class="skill"><i class="fas fa-envelope-open-text"></i>HTML Email Development</div> 
-                        <div class="skill"><i class="fas fa-book"></i>Documentation</div>           
-                        <div class="skill"><i class="fas fa-mobile-alt"></i>UX</div>
-                        <div class="skill"><i class="fas fa-universal-access"></i>Accessibility</div> 
-                        <div class="skill"><i class="fas fa-search"></i>SEO</div>
-                        <!-- <div class="skill"><i class="fas fa-chart-pie"></i>Salesforce</div> -->
-                        <div class="skill"><i class="fab fa-adobe"></i>Photoshop</div>
-                        <!-- <div class="skill"><i class="fas fa-tachometer-alt"></i>Testing</div>   -->
-                    </div>
+                <div class="skill-grid">
+                        <div class="skill">
+                            <div class="icon-container"><i class="fab fa-js"></i></div>
+                            JavaScript
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fab fa-css3-alt"></i></div>
+                            CSS/SASS/Bootstrap
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fab fa-vuejs"></i></div>
+                            Vue.js/Nuxt.js
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fab fa-react"></i></div>
+                            React.js
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fas fa-code"></i></div>
+                            REST API's
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fab fa-python"></i></div>
+                            Python
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fab fa-git"></i></div>
+                            Version Control
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fas fa-server"></i></div>
+                            Web Administration
+                        </div>  
+                        <div class="skill">
+                            <div class="icon-container"><i class="fab fa-wordpress"></i></div>
+                            CMS - WordPress/Shopify/HubSpot/Salesforce
+                        </div> 
+                        <div class="skill">
+                            <div class="icon-container"><i class="fas fa-envelope-open-text"></i></div>
+                            HTML Email Development
+                        </div> 
+                        <div class="skill">
+                            <div class="icon-container"><i class="fas fa-book"></i></div>
+                            Documentation
+                        </div>           
+                        <div class="skill">
+                            <div class="icon-container"><i class="fas fa-mobile-alt"></i></div>
+                            UX
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fas fa-universal-access"></i></div>
+                            Accessibility
+                        </div> 
+                        <div class="skill">
+                            <div class="icon-container"><i class="fas fa-search"></i></div>
+                            SEO
+                        </div>
+                        <div class="skill">
+                            <div class="icon-container"><i class="fab fa-adobe"></i></div>
+                            Photoshop
+                        </div>
+                        <!-- <div class="skill"><div class="icon-container">
+                            </div><i class="fas fa-tachometer-alt"></i>Testing</div>   -->
                 </div>
             </div>
             <div class="col-5 right">
@@ -76,5 +118,9 @@ i {
 }
 .skill {
     font-size: 17px;
+    display: flex;
+}
+.icon-container {
+    width: 40px;
 }
 </style>
