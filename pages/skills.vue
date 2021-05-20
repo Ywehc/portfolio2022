@@ -105,7 +105,7 @@ i {
     position: relative;
 }
 .img-skills {
-    background-image: url('~/assets/images/skills.png');
+    background-image: url('~/assets/images/keyboard.png');
     background-size: cover;
     height: $imgHeight;
 }

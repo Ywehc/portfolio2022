@@ -2,14 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="front col-6">
-                <h1 class="section-heading">Contact Me</h1>
                 <div class="row">
                     <form   class="contact-form" 
-                        action="https://formspree.io/chriskierandevelopment@gmail.com" 
-                        target="_blank" 
-                        method="POST"
-                >   
-                    <div class="col-12 col-sm-8 form-top">
+                            action="https://formspree.io/chriskierandevelopment@gmail.com" 
+                            target="_blank" 
+                            method="POST"
+                    >   
+                    <div class="form-top">
                         <div class="form-group">
                             <label for="name"></label>
                             <input  class="form-input form-control" 
@@ -40,33 +39,26 @@
                             >
                         </div> 
                     </div>
-                    <div class="col-7 col-sm-4">
-                        <a href="https://www.linkedin.com/in/chris-kieran" target="_blank">
-                            <div class="linkedin-container">
-                                <p class="linkedin">Connect with me on LinkedIn</p>
-                                <i class="fab fa-linkedin-in"></i>
-                            </div>
-                        </a>              
-                    </div> 
-                        <div class="form-group col-12">
-                            <label for="message"></label>
-                            <textarea  
-                                    class="form-input form-control" 
-                                    rows="4"
-                                    type="text" 
-                                    name="message" 
-                                    id="message"
-                                    placeholder="How can I help you?" 
-                                    required
-                            ></textarea>
-                            <div>
-                                <div>
-                                    <button class="btn btn-outline-light button-submit" type="submit" value="Send">
-                                        Send
-                                    </button> 
-                                </div>
-                            </div>
-                        </div>    
+                    <div class="form-group col-12">
+                        <label for="message"></label>
+                        <textarea  
+                                class="form-input form-control" 
+                                rows="8"
+                                type="text" 
+                                name="message" 
+                                id="message"
+                                placeholder="How can I help you?" 
+                                required
+                        ></textarea>
+                        <div>
+                            <button class="btn btn-outline-dark button-submit" type="submit" value="Send">
+                                Send
+                            </button> 
+                            
+                            <p class="linkedin">Or <a  href="https://www.linkedin.com/in/chris-kieran" target="_blank">message me on <span class="underline">LinkedIn </span></a></p>
+                            
+                        </div>
+                    </div>    
                     </form>
                 </div>
             </div>
@@ -87,6 +79,9 @@ h1 {
     font-size: $headingFontSize;
     margin-bottom: $headingMarginBottom;
 }
+form {
+    width: 500px;
+}
 .container {
     padding: $containerPadding;
     padding-top: $pagePaddingTop;
@@ -95,19 +90,37 @@ h1 {
 .front {
     z-index: $pageZIndex;
     position: relative; 
+    padding-left: 15em;
+    padding-top: 8em;
 }
 .img-contact {
-    background-image: url('~/assets/images/contact.png');
-    background-size: 110%;
-    background-position-y: 45%;
-    background-position-x: 30%;
+    background-image: url('~/assets/images/keyboard.png');
+    background-size: cover;
     height: $imgHeight;
 }
 .title-container {
     text-align: right;
     position: $imgContainerPosition;
-    bottom: 174px;
+    bottom: 214px;
     right: 10px;
     width: 100%;
+}
+.form-group {
+    margin-bottom: 0;
+    padding: 0;
+}
+.btn-outline-dark {
+    margin-top: 20px;
+    border: 1px solid #ced4da;
+}
+.linkedin {
+    margin-top: 20px;
+}
+.linkedin a {
+    text-decoration: none;
+    color: black;
+}
+.underline {
+    text-decoration: underline;
 }
 </style>

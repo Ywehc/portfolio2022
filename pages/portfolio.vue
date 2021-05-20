@@ -17,7 +17,7 @@
                             <h5 class="card-title">Propertrust (2020)</h5>
                             <i class="fas fa-file-signature"></i>
                         </div>
-                        <p class="card-text">A Vue.js app that uses state management and two-way data binding to enable the user to generate a Real Estate Sales agreement.</p>
+                        <p class="card-text">A Vue.js app that uses two-way data binding to enable the user to generate a Real Estate Sales agreement.</p>
                     </div>
                 </a>
                 <a href="https://codepen.io/Ywehc/full/BMQEQW" target="_blank">
@@ -79,7 +79,7 @@ a {
 .title-container {
     text-align: right;
     position: $imgContainerPosition;
-    bottom: 40px;
+    bottom: 20px;
     right: 10px;
     width: 100%;
 }
