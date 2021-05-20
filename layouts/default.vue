@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="wrapper">
     <Nuxt class="main"/>
-    <Nav />
+    <Nav class="menu"/>
   </div>
 </template>
 
@@ -30,7 +30,13 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+.wrapper {
+  margin: auto;
+}
 .main {
   height: 500px;
+}
+.main, .menu {
+  margin-left: 20%;
 }
 </style>

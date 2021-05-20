@@ -5,7 +5,7 @@
         <div class="front col-7">
             <p>As a developer I'm drawn to the intersection of creativity and technical proficiency.</p>
             <p>The career path I'm on is really exciting. I love bringing code to life on the frontend with Javascript (mostly Vue.js) and CSS, but have also built foundations in PHP and Python.</p>
-            <p>I enjoy nature, dogs, travel, music, astronomy, investing, fantasy sports, entrepreneurship and all sorts of other cool stuff. I'm fortunate to be able to spend lots of time with my amazing wife, son and dog, and they are a motivation boost every day.</p>
+            <p>In my free time enjoy nature, dogs, travel, music, astronomy, investing, fantasy sports, snowboarding and more. I'm fortunate to be able to spend lots of time with my amazing wife, son and dog, and they are a motivation boost every day.</p>
         </div>
         <div class="col-5 right">
             <div class="title-container">
