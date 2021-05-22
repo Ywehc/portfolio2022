@@ -38,29 +38,33 @@
         background: white;
     }
 }
-.indigo {
-    background-image: url('~/assets/images/indigo.png');
+.pane-5 {
+    background-image: url('~/assets/images/orange.png');
     background-size: cover;
     width: 60%;
+    background-position-y: 50%;
 }
-.blue {
-    background-image: url('~/assets/images/blue.png');
-    background-size: cover;
-    background-position-y: 95%;
-    width: 70%;
-}
-.green {
-    background-image: url('~/assets/images/green.png');
-    background-size: cover;
-    width: 80%;
-}
-.yellow {
+.pane-4 {
     background-image: url('~/assets/images/yellow.png');
     background-size: cover;
-    width: 90%;
+    width: 50%;
+    background-position-y: 29%;
 }
-.orange {
-    background-image: url('~/assets/images/orange.png');
-    background-size: 100%;
-    width: 100%;
+.pane-3 {
+    background-image: url('~/assets/images/green.png');
+    background-size: cover;
+    width: 60%;
+    background-position-y: 40%;
+}
+.pane-2{
+    background-image: url('~/assets/images/blue.png');
+    background-size: cover;
+    width: 70%;
+    background-position-y: 28%;
+}
+.pane-1 {
+    background-image: url('~/assets/images/purple.png');
+    background-size: cover;
+    background-position-y: 70%;
+    width: 70%;
 }

@@ -37,6 +37,7 @@ html {
   height: 500px;
 }
 .main, .menu {
-  margin-left: 20%;
+  // controls how centered the main view appears
+  margin-left: 24%;
 }
 </style>
