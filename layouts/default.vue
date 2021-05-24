@@ -34,9 +34,10 @@ html {
   margin: auto;
 }
 .main {
-  height: 500px;
+  height: 540px;
 }
 .main, .menu {
-  margin-left: 20%;
+  // controls how centered the main view appears
+  margin-left: 24%;
 }
 </style>

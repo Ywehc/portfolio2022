@@ -2,7 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="front col-6">
-                <a href="https://www.cryptohawk.ca" target="_blank">
+                <div class="content-container">
+                    <a href="https://www.cryptohawk.ca" target="_blank">
                     <div class="portfolio-card">
                         <div class="card-heading">
                             <h5 class="card-title">Cryptohawk (2021)</h5>
@@ -32,6 +33,8 @@
                 <a class="btn btn-primary" href="https://github.com/Ywehc" role="button" target="_blank">
                     <strong>Github  </strong><i class="fab fa-github"></i>
                 </a>
+                </div>
+                
             </div>
             <div class="col-6 right">
                 <div class="title-container">
@@ -51,7 +54,7 @@ h1 {
     font-size: $headingFontSize;
 }
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .container {
@@ -79,12 +82,12 @@ a {
 .title-container {
     text-align: right;
     position: $imgContainerPosition;
-    bottom: 20px;
+    bottom: 228px;
     right: 10px;
     width: 100%;
 }
 .portfolio-card {
-    width: 450px;
+    width: 350px;
     border: 1px solid grey;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -101,9 +104,9 @@ a {
     }
 }
 .portfolio-card:hover {
-    border: 1px solid black;
-    background: black;
-    color: white;
+    border: 1px solid white;
+    background: white;
+    color: black;
     cursor: pointer;
 }
 .card-heading {
@@ -118,6 +121,6 @@ a {
 .btn-primary:hover {
     background: black;
     color: white;
-    border-color: black;
+    border-color: white;
 }
 </style>
