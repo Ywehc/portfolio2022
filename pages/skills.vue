@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container page-container">
         <div class="row">
             <div class="front col-7">
                 <div class="content-container">
@@ -63,14 +63,12 @@
                             <div class="icon-container"><i class="fab fa-adobe"></i></div>
                             Photoshop
                         </div>
-                        <!-- <div class="skill"><div class="icon-container">
-                            </div><i class="fas fa-tachometer-alt"></i>Testing</div>   -->
                 </div>
             </div>
             <div class="col-5 right">
                 <div class="title-container">
-                    <h1>Skills</h1>
-                    <div class="img-skills"></div>
+                    <h1 class="page-h1">Skills</h1>
+                    <div class="img-skills img-page-heading"></div>
                 </div>
             </div>
         </div>
@@ -80,43 +78,19 @@
 <style lang="scss" scoped>
 @import '~/assets/scss/_global.scss';
 
-h1 {
-    font-size: $headingFontSize;
-    margin-bottom: $headingMarginBottom;
-}
 i {
     margin: 8px 8px 8px 0;
-}
-.container {
-    padding: $containerPadding;
-    padding-top: $pagePaddingTop;
-    position: relative;
-}
-.front {
-    z-index: $pageZIndex;
-    position: relative; 
-    padding-left: 15em;
-    padding-top: 8em;
 }
 .row {
     height: 100%;
 }
-.right {
-    position: relative;
-}
 .img-skills {
     background-image: url('~/assets/images/skills.png');
-    background-size: cover;
-    height: $imgHeight;
     background-position-x: 80px;
     background-position-y: 40%;
 }
 .title-container {
-    text-align: right;
-    position: $imgContainerPosition;
     bottom: 228px;
-    right: 10px;
-    width: 100%;
 }
 .skill {
     font-size: 17px;

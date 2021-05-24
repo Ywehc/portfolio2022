@@ -6,19 +6,19 @@
             </div>
             <div class="col-11 nav-container">
                 <div class="nav-pane pane-5">
-                    <NuxtLink class="link" to="/">Home</NuxtLink>
+                    <NuxtLink class="link" to="/">home</NuxtLink>
                 </div>
                 <div class="nav-pane pane-4">
-                    <NuxtLink class="link" to="/about">About</NuxtLink>
+                    <NuxtLink class="link" to="/about">about</NuxtLink>
                 </div>
                 <div class="nav-pane pane-3">
-                    <NuxtLink class="link" to="/skills">Skills</NuxtLink>
+                    <NuxtLink class="link" to="/skills">skills</NuxtLink>
                 </div>
                 <div class="nav-pane pane-2">
-                    <NuxtLink class="link" to="/portfolio">Portfolio</NuxtLink>
+                    <NuxtLink class="link" to="/portfolio">portfolio</NuxtLink>
                 </div>
                 <div class="nav-pane pane-1">
-                    <NuxtLink class="link" to="/contact">Contact</NuxtLink>
+                    <NuxtLink class="link" to="/contact">contact</NuxtLink>
                 </div>
             </div>
         </div>
