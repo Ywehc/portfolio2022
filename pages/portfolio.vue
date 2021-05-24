@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container page-container">
         <div class="row">
             <div class="front col-6">
                 <div class="content-container">
@@ -38,8 +38,8 @@
             </div>
             <div class="col-6 right">
                 <div class="title-container">
-                    <h1>Portfolio</h1>
-                    <div class="img-portfolio"></div>
+                    <h1 class="page-h1">Portfolio</h1>
+                    <div class="img-portfolio img-page-heading"></div>
                 </div>
             </div>
         </div>
@@ -49,48 +49,24 @@
 <style lang="scss" scoped>
 @import '~/assets/scss/_global.scss';
 
-h1 {
-    margin-bottom: $headingMarginBottom;
-    font-size: $headingFontSize;
-}
 a {
     color: white;
     text-decoration: none;
 }
-.container {
-    padding: $containerPadding;
-    padding-top: $pagePaddingTop;
-    position: relative;
-}
-.front {
-    z-index: $pageZIndex;
-    position: relative; 
-    padding-left: 15em;
-    padding-top: 8em;
-}
 .img-portfolio {
     background-image: url('~/assets/images/portfolio.png');
-    background-size: cover;
-    height: $imgHeight;
 }
 .row {
     height: 100%;
 }
-.right {
-    position: relative;
-}
 .title-container {
-    text-align: right;
-    position: $imgContainerPosition;
     bottom: 228px;
-    right: 10px;
-    width: 100%;
 }
 .portfolio-card {
     width: 350px;
     border: 1px solid grey;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     h5 {
         font-size: 20px;

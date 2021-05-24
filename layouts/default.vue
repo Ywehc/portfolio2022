@@ -2,6 +2,7 @@
   <div class="wrapper">
     <Nuxt class="main"/>
     <Nav class="menu"/>
+    <Footer class="icons"/>
   </div>
 </template>
 

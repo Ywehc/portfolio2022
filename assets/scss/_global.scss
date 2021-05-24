@@ -4,7 +4,7 @@ $paneMargin: 3px 0px;
 $containerPadding: 20px;
 $containerMargin: auto;
 
-$headingFontSize: 50px;
+$headingFontSize: 46px;
 $headingMarginBottom: 4px;
 
 $paragraphFontSize: 16px;
@@ -17,6 +17,11 @@ $imgContainerBottom: 5px;
 $imgContainerRight: 15px;
 $imgHeight: 200px;
 
+.page-container {
+    padding: $containerPadding;
+    padding-top: $pagePaddingTop;
+    position: relative;
+}
 .img-container {
     position: $imgContainerPosition;
     bottom: $imgContainerBottom;
@@ -30,4 +35,26 @@ $imgHeight: 200px;
     width: 550px;
     height: 590px;
     border-bottom-right-radius: 590px;
+}
+.page-h1 {
+    font-size: $headingFontSize;
+}
+.front {
+    z-index: $pageZIndex;
+    position: relative; 
+    padding-left: 15em;
+    padding-top: 8em;
+}
+.right {
+    position: relative;
+}
+.img-page-heading {
+    height: $imgHeight;
+    background-size: cover;
+}
+.title-container {
+    text-align: right;
+    position: $imgContainerPosition;
+    right: 10px;
+    width: 100%;
 }

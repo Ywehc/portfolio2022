@@ -30,11 +30,11 @@ export default {
   width: 100%;
 }
 h1 {
-  font-size: $headingFontSize;
+  font-size: 52px;
   margin-bottom: 0;
 }
 h2 {
-  font-size: 26px;
+  font-size: 28px;
 }
 .title, .subtitle {
   z-index: 3;
