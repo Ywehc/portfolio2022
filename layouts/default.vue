@@ -34,7 +34,7 @@ html {
   margin: auto;
 }
 .main {
-  height: 500px;
+  height: 540px;
 }
 .main, .menu {
   // controls how centered the main view appears

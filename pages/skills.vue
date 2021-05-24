@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="front col-7">
-                <div class="skill-grid">
+                <div class="content-container">
                         <div class="skill">
                             <div class="icon-container"><i class="fab fa-js"></i></div>
                             JavaScript
@@ -105,14 +105,16 @@ i {
     position: relative;
 }
 .img-skills {
-    background-image: url('~/assets/images/keyboard.png');
+    background-image: url('~/assets/images/skills.png');
     background-size: cover;
     height: $imgHeight;
+    background-position-x: 80px;
+    background-position-y: 40%;
 }
 .title-container {
     text-align: right;
     position: $imgContainerPosition;
-    bottom: 170px;
+    bottom: 228px;
     right: 10px;
     width: 100%;
 }

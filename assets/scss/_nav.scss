@@ -8,9 +8,9 @@
         z-index: 6;
         height: 100em;
         width: 100em;
-        border-radius: 50%;
+        border-radius: 40%;
         margin-top: -82em;
-        margin-left: -44em;
+        margin-left: -49em;
     }
 }
 .nav-container {
@@ -37,6 +37,11 @@
         color: black;
         background: white;
     }
+    .link {
+        width: 110px;
+        text-align: center;
+        border-left: 5px solid white;
+    }
 }
 .pane-5 {
     background-image: url('~/assets/images/orange.png');
@@ -46,15 +51,14 @@
 }
 .pane-4 {
     background-image: url('~/assets/images/yellow.png');
-    background-size: cover;
-    width: 50%;
-    background-position-y: 29%;
+    background-size: contain;
+    width: 100%;
 }
 .pane-3 {
-    background-image: url('~/assets/images/green.png');
+    background-image: url('~/assets/images/green2.png');
     background-size: cover;
-    width: 60%;
-    background-position-y: 40%;
+    width: 54%;
+    background-position-y: 100%;
 }
 .pane-2{
     background-image: url('~/assets/images/blue.png');
@@ -65,6 +69,8 @@
 .pane-1 {
     background-image: url('~/assets/images/purple.png');
     background-size: cover;
-    background-position-y: 70%;
     width: 70%;
+    background-position-y: 60px;
+    background-position-x: -60px;
+    // background-position-y: 80%;
 }

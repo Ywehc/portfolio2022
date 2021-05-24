@@ -51,17 +51,16 @@ h2 {
 .pane-7 {
     background-image: url('~/assets/images/violet.png');
     background-size: cover;
-    width: 75%;
+    width: 77%;
     background-position-y: 70%;
 }
 .pane-6 {
     background-image: url('~/assets/images/red.png');
     background-size: cover;
-    background-position-y: 15%;
     width: 100%;
+    background-position-y: -5px;
 }
 .left {
-  border: 2px solid blue;
   margin-left: 110px;
   margin-top: -120px;
 }

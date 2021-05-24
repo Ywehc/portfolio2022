@@ -3,9 +3,13 @@
 <div class="container">
     <div class="row">
         <div class="front col-7">
-            <p>As a developer I'm drawn to the intersection of creativity and technical proficiency.</p>
-            <p>The career path I'm on is really exciting. I love bringing code to life on the frontend with Javascript (mostly Vue.js) and CSS, but have also built foundations in PHP and Python.</p>
-            <p>In my free time enjoy nature, dogs, travel, music, astronomy, investing, fantasy sports, snowboarding and more. I'm fortunate to be able to spend lots of time with my amazing wife, son and dog, and they are a motivation boost every day.</p>
+            <div class="content-container">
+                <p>What draws me to web development and especially frontend development is the intersection of creativity and technical ability.</p>
+
+                <p>The career path I'm on is really exciting. I love bringing code to life on the frontend with Javascript (mostly Vue.js) and CSS, but have also built foundations in PHP and Python.</p>
+                <p style="width: 90%">The best thing about life as a developer is collaboratively building awesome software as part of a cross-functional team of talented people while still being able to spend lots of time with my wife, son and dog.</p>
+                <p style="width: 80%">Outside of web development I'm in to nature, dogs, travel, music, astronomy, hockey and fantasy hockey, snowboarding, spicy foods and more.</p>
+            </div>
         </div>
         <div class="col-5 right">
             <div class="title-container">
@@ -35,6 +39,9 @@ h1 {
     position: relative; 
     padding-left: 15em;
     padding-top: 8em;
+    .narrow {
+        width: 80%;
+    }
     p {
         font-size: $paragraphFontSize;
     }
@@ -55,7 +62,7 @@ h1 {
 .title-container {
     text-align: right;
     position: $imgContainerPosition;
-    bottom: -15px;
+    bottom: 225px;
     right: 10px;
     width: 100%;
 }

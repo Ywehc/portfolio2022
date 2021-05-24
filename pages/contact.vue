@@ -2,7 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="front col-6">
-                <div class="row">
+                <div class="content-container">
+                    <div class="row">
                     <form   class="contact-form" 
                             action="https://formspree.io/chriskierandevelopment@gmail.com" 
                             target="_blank" 
@@ -43,7 +44,7 @@
                         <label for="message"></label>
                         <textarea  
                                 class="form-input form-control" 
-                                rows="8"
+                                rows="7"
                                 type="text" 
                                 name="message" 
                                 id="message"
@@ -51,7 +52,7 @@
                                 required
                         ></textarea>
                         <div>
-                            <button class="btn btn-outline-dark button-submit" type="submit" value="Send">
+                            <button class="btn btn-outline-light button-submit" type="submit" value="Send">
                                 Send
                             </button> 
                             
@@ -61,6 +62,8 @@
                     </div>    
                     </form>
                 </div>
+                </div>
+                
             </div>
             <div class="col-6 right">
             <div class="title-container">
@@ -80,7 +83,11 @@ h1 {
     margin-bottom: $headingMarginBottom;
 }
 form {
-    width: 500px;
+    width: 350px;
+}
+.content-container {
+    padding-top: 0;
+    padding-left: 40px;
 }
 .container {
     padding: $containerPadding;
@@ -97,11 +104,12 @@ form {
     background-image: url('~/assets/images/keyboard.png');
     background-size: cover;
     height: $imgHeight;
+    background-position-x: 140px;
 }
 .title-container {
     text-align: right;
     position: $imgContainerPosition;
-    bottom: 214px;
+    bottom: 228px;
     right: 10px;
     width: 100%;
 }
@@ -109,16 +117,15 @@ form {
     margin-bottom: 0;
     padding: 0;
 }
-.btn-outline-dark {
+.btn-outline-light {
     margin-top: 20px;
-    border: 1px solid #ced4da;
 }
 .linkedin {
     margin-top: 20px;
 }
 .linkedin a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .underline {
     text-decoration: underline;
