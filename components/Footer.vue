@@ -1,26 +1,34 @@
 <template>
     <div class="container">
-        <div class="icon-container">
-            <a href="https://github.com/Ywehc" role="button" target="_blank">
-                <i class="fab fa-github-square"></i>
-            </a>
-        </div>
-        <div class="icon-container">
-            <a href="https://www.linkedin.com/in/chris-kieran" role="button" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-        </div>
-        <div class="icon-container">
-            <NuxtLink class="link" to="/contact"><i class="fas fa-envelope"></i></NuxtLink>
+        <div class="row mx-auto">
+            <div class="col-3 spacer"></div>
+            <div class="col-9 content text-center">
+                <div class="icon-container">
+                    <a href="https://github.com/Ywehc" role="button" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </div>
+                <div class="icon-container">
+                    <a href="https://www.linkedin.com/in/chris-kieran" role="button" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="icon-container">
+                    <NuxtLink class="link" to="/contact"><i class="fas fa-envelope"></i></NuxtLink>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
-.container {
+.row {
+    width: 100%;
+}
+.content {
     margin-top: 4em;
-    padding-left: 35em;
     display: flex;
+    justify-content: center;
     .icon-container {
         margin: 10px;
         width: 50px;
