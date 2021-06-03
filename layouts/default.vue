@@ -37,8 +37,11 @@ html {
 .main {
   height: 540px;
 }
-.main, .menu {
-  // controls how centered the main view appears
-  margin-left: 24%;
+.icons {
+  display: flex;
 }
+// .main, .menu {
+//   controls how centered the main view appears
+//   margin-left: 24%;
+// }
 </style>
