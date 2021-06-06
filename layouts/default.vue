@@ -44,4 +44,11 @@ html {
 //   controls how centered the main view appears
 //   margin-left: 24%;
 // }
+
+@media screen and (max-width: 1200px) {
+  .main {
+    height: auto;
+    text-align: center;
+  }
+}
 </style>

@@ -1,7 +1,13 @@
 <template>
     <div class="container page-container">
         <div class="row">
-            <div class="front col-6">
+            <div class="col-12 col-xl-6 right order-xl-last">
+                <div class="title-container">
+                    <h1 class="page-h1 d-none d-xl-block">Portfolio</h1>
+                    <div class="img-portfolio img-page-heading"></div>
+                </div>
+            </div>
+            <div class="front col-12 col-xl-6 order-xl-first">
                 <div class="content-container">
                     <a href="https://www.cryptohawk.ca" target="_blank">
                     <div class="portfolio-card">
@@ -36,12 +42,7 @@
                 </div>
                 
             </div>
-            <div class="col-6 right">
-                <div class="title-container">
-                    <h1 class="page-h1">Portfolio</h1>
-                    <div class="img-portfolio img-page-heading"></div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </template>
@@ -98,5 +99,16 @@ a {
     background: black;
     color: white;
     border-color: white;
+}
+@media screen and (max-width: 1200px) {
+    .front {
+        padding: 0;
+    }
+    .title-container {
+        bottom: 0;
+    }
+    .img-portfolio {
+        margin: 0;
+    }
 }
 </style>

@@ -73,3 +73,14 @@
     background-position-y: 60px;
     background-position-x: -60px;
 }
+
+@media screen and (max-width: 1200px) {
+    .pane-1, .pane-2, .pane-3, .pane-4, .pane-5 {
+      background-image: none;
+      width: 100%;
+      margin: auto;
+    }
+    .link {
+        margin: auto;
+    }
+}
