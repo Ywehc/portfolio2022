@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-1 curve-container">
-                <div class="curve"></div>
+                <div class="curve d-none d-sm-block"></div>
             </div>
             <div class="col-11 nav-container">
                 <div class="nav-pane pane-5">

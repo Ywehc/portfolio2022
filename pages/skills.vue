@@ -1,7 +1,13 @@
 <template>
     <div class="container page-container">
         <div class="row">
-            <div class="front col-7">
+            <div class="col-12 col-xl-5 right order-xl-last">
+                <div class="title-container">
+                    <h1 class="page-h1 d-none d-xl-block">Skills</h1>
+                    <div class="img-skills img-page-heading"></div>
+                </div>
+            </div>
+            <div class="front col-12 col-xl-7 order-xl-first">
                 <div class="content-container">
                         <div class="skill">
                             <div class="icon-container"><i class="fab fa-js"></i></div>
@@ -65,12 +71,6 @@
                         </div>
                 </div>
             </div>
-            <div class="col-5 right">
-                <div class="title-container">
-                    <h1 class="page-h1">Skills</h1>
-                    <div class="img-skills img-page-heading"></div>
-                </div>
-            </div>
         </div>
     </div>
 </template>
@@ -98,5 +98,17 @@ i {
 }
 .icon-container {
     width: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .front {
+        padding: 0;
+    }
+    .title-container {
+        bottom: 0;
+    }
+    .img-skills {
+        margin: 0;
+    }
 }
 </style>

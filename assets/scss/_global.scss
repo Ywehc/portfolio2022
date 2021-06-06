@@ -11,6 +11,7 @@ $paragraphFontSize: 16px;
 
 $pageZIndex: 7;
 $pagePaddingTop: 3em;
+$mobilePagePaddingTop: 0;
 
 $imgContainerPosition: absolute;
 $imgContainerBottom: 5px;
@@ -57,4 +58,19 @@ $imgHeight: 200px;
     position: $imgContainerPosition;
     right: 10px;
     width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .right {
+        align-items: center;
+        z-index: 8;
+        padding-right: 0;
+    }
+    .title-container {
+        position: relative;
+    }
+    .page-container {
+        padding: 0;
+        padding-top: $mobilePagePaddingTop;
+    }
 }

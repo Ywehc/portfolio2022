@@ -1,7 +1,13 @@
 <template>
     <div class="container page-container">
         <div class="row">
-            <div class="front col-6">
+            <div class="col-12 col-xl-6 right order-xl-last">
+                <div class="title-container">
+                    <h1 class="page-h1">Contact Me</h1>
+                    <div class="img-contact img-page-heading"></div>
+                </div>
+            </div>
+            <div class="front col-12 col-xl-6 order-xl-first">
                 <div class="content-container">
                     <div class="row">
                     <form   class="contact-form" 
@@ -67,12 +73,6 @@
                 </div>
                 
             </div>
-            <div class="col-6 right">
-            <div class="title-container">
-                <h1 class="page-h1">Contact Me</h1>
-                <div class="img-contact img-page-heading"></div>
-            </div>
-        </div>
         </div>
     </div>
 </template>
@@ -110,5 +110,17 @@ form {
 }
 .underline {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+    .front {
+        padding: 0;
+    }
+    .title-container {
+        bottom: 0;
+    }
+    .img-contact {
+        margin: 0;
+    }
 }
 </style>
