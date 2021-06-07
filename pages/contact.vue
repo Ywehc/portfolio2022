@@ -121,6 +121,8 @@ form {
     }
     .img-contact {
         margin: 0;
+        background-size: cover;
+        background-position-x: center;
     }
 }
 </style>

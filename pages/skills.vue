@@ -109,6 +109,8 @@ i {
     }
     .img-skills {
         margin: 0;
+        background-size: cover;
+        background-position-x: center;
     }
 }
 </style>
