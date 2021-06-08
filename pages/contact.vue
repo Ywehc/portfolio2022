@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-xl-6 right order-xl-last">
                 <div class="title-container">
-                    <h1 class="page-h1">Contact Me</h1>
+                    <h1 class="page-h1 d-none d-xl-block">Contact Me</h1>
                     <div class="img-contact img-page-heading"></div>
                 </div>
             </div>
@@ -50,7 +50,6 @@
                         <label for="message"></label>
                         <textarea  
                                 class="form-input form-control" 
-                                rows="7"
                                 type="text" 
                                 name="message" 
                                 id="message"
@@ -82,6 +81,9 @@
 
 form {
     width: 350px;
+}
+textarea {
+    height: 200px;
 }
 .content-container {
     padding-top: 0;
@@ -123,6 +125,12 @@ form {
         margin: 0;
         background-size: cover;
         background-position-x: center;
+    }
+    textarea {
+        height: 100px;
+    }
+    .btn-outline-light {
+        margin-top: 10px;
     }
 }
 </style>

@@ -5,8 +5,10 @@ $paneMargin: 3px 0px;
 $containerPadding: 20px;
 $containerMargin: auto;
 
-$headingFontSize: 46px;
+$headingFontSize: 44px;
 $headingMarginBottom: 4px;
+
+$subheadingFontSize: 24px;
 
 $paragraphFontSize: 16px;
 
@@ -18,6 +20,7 @@ $imgContainerPosition: absolute;
 $imgContainerBottom: 5px;
 $imgContainerRight: 15px;
 $imgHeight: 200px;
+$mobileImgHeight: 120px;
 
 .page-container {
     padding: $containerPadding;
@@ -44,8 +47,8 @@ $imgHeight: 200px;
 .front {
     z-index: $pageZIndex;
     position: relative; 
-    padding-left: 15em;
-    padding-top: 8em;
+    padding-left: 11em;
+    padding-top: 3em;
 }
 .right {
     position: relative;
@@ -57,7 +60,7 @@ $imgHeight: 200px;
 .title-container {
     text-align: right;
     position: $imgContainerPosition;
-    right: 10px;
+    right: 32px;
     width: 100%;
 }
 
@@ -73,6 +76,7 @@ $imgHeight: 200px;
     }
     .title-container {
         position: relative;
+        right: 0;
     }
     .page-container {
         padding: 0;
@@ -80,5 +84,11 @@ $imgHeight: 200px;
     }
     .content-container {
         width: auto;
+        border-bottom-right-radius: 115px;
+        height: auto;
+        min-height: 520px;
+    }
+    .img-page-heading {
+        height: $mobileImgHeight;
     }
 }

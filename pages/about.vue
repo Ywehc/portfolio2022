@@ -55,6 +55,7 @@
     }
     .img-about {
         margin: 0;
+        width: 100%;
     }
     .p3, .p4 {
         width: 100%!important;

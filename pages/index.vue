@@ -32,11 +32,11 @@ export default {
   width: 100%;
 }
 h1 {
-  font-size: 52px;
+  font-size: $headingFontSize;
   margin-bottom: 0;
 }
 h2 {
-  font-size: 28px;
+  font-size: 24px;
 }
 .title, .subtitle {
   z-index: 3;
@@ -67,7 +67,7 @@ h2 {
   margin-top: -120px;
 }
 .animation {
-  right: 120px;
+  right: 160px;
 }
 @media screen and (max-width: 1200px) {
   .right {

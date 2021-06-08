@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="front col-12 col-xl-6 order-xl-first">
-                <div class="content-container">
+                <div class="content-container portfolio-content-container">
                     <a href="https://www.cryptohawk.ca" target="_blank">
                     <div class="portfolio-card">
                         <div class="card-heading">
@@ -109,6 +109,13 @@ a {
     }
     .img-portfolio {
         margin: 0;
+    }
+    .portfolio-card {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .portfolio-content-container {
+        padding-top: 10px;
     }
 }
 </style>
