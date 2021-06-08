@@ -2,7 +2,7 @@
   <div class="wrapper">
     <Nuxt class="main"/>
     <Nav class="menu"/>
-    <Footer class="icons"/>
+    <Footer class="d-none d-xl-flex"/>
   </div>
 </template>
 
@@ -35,20 +35,21 @@ html {
   margin: auto;
 }
 .main {
-  height: 540px;
+  height: 460px;
+  padding-right: 9em!important;
 }
-.icons {
-  display: flex;
+.menu {
+  padding-right: 10em;
 }
-// .main, .menu {
-//   controls how centered the main view appears
-//   margin-left: 24%;
-// }
 
 @media screen and (max-width: 1200px) {
   .main {
     height: auto;
     text-align: center;
+    padding-right: 15px!important;
+  }
+  .menu {
+    padding-right: 15px;
   }
 }
 </style>

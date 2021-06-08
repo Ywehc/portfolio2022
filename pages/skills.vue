@@ -43,7 +43,7 @@
                         </div>  
                         <div class="skill">
                             <div class="icon-container"><i class="fab fa-wordpress"></i></div>
-                            CMS - WordPress/Shopify/HubSpot/Salesforce
+                            WordPress/Shopify/HubSpot/Salesforce
                         </div> 
                         <div class="skill">
                             <div class="icon-container"><i class="fas fa-envelope-open-text"></i></div>
@@ -109,6 +109,8 @@ i {
     }
     .img-skills {
         margin: 0;
+        background-size: cover;
+        background-position-x: center;
     }
 }
 </style>

@@ -1,8 +1,7 @@
 <template>
     <div class="container">
         <div class="row mx-auto">
-            <div class="col-3 spacer"></div>
-            <div class="col-9 content text-center">
+            <div class="col content text-center">
                 <div class="icon-container">
                     <a href="https://github.com/Ywehc" role="button" target="_blank">
                         <i class="fab fa-github-square"></i>

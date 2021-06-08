@@ -10,7 +10,7 @@
         width: 100em;
         border-radius: 40%;
         margin-top: -82em;
-        margin-left: -49em;
+        margin-left: -54em;
     }
 }
 .nav-container {
@@ -82,5 +82,26 @@
     }
     .link {
         margin: auto;
+        width: 100%!important;
+        border-left: none!important;
+    }
+    .nav-container {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 8;
+        background-color: white;
+        padding: 0;
+    }
+    .nav-toggle {
+        margin: auto;
+        text-align: center;
+        font-size: 26px;
+    }
+    .nav-pane {
+        height: $mobilePaneHeight;
+        a {
+            height: $mobilePaneHeight;
+        }
     }
 }

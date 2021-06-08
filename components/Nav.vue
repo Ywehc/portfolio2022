@@ -1,10 +1,13 @@
 <template>
     <div class="container">
-        <div class="row">
-            <div class="col-1 curve-container">
+        <div v-if="navOpen" class="row">
+            <div class="col-0 col-xl-1 curve-container">
                 <div class="curve d-none d-sm-block"></div>
             </div>
-            <div class="col-11 nav-container">
+            <div class="col-12 col-xl-11 nav-container">
+                <div class="nav-toggle d-xl-none">
+                    <i class="far fa-caret-square-down" @click="navOpen = false"></i>
+                </div>
                 <div class="nav-pane pane-5">
                     <NuxtLink class="link" to="/">home</NuxtLink>
                 </div>
@@ -22,8 +25,24 @@
                 </div>
             </div>
         </div>
+        <div v-else>
+            <div class="nav-toggle" @click="navOpen = true">
+                <i class="far fa-caret-square-up"></i>
+                <p class="text-center">menu</p>
+            </div>
+        </div>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            navOpen: true
+        }
+    },
+}
+</script>
 
 <style lang="scss" scoped>
 @import '@/assets/scss/_global.scss';
