@@ -43,13 +43,24 @@ html {
 }
 
 @media screen and (max-width: 1200px) {
+  .wrapper {
+    background-color: black;
+    height: 100vh;
+  }
   .main {
-    height: auto;
+    min-height: 80vh;
     text-align: center;
     padding-right: 15px!important;
+    background-color: black;
+    color: white;
+    overflow: scroll!important;
   }
   .menu {
     padding-right: 15px;
+    .nav-container {
+      background: black!important;
+      color: white;
+    }
   }
 }
 </style>
