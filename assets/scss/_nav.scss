@@ -94,14 +94,26 @@
         padding: 0;
     }
     .nav-toggle {
-        margin: auto;
+        margin: 0px auto;
         text-align: center;
-        font-size: 26px;
+        padding: 20px 0px;
+        color: white;
+        i {
+            font-size: 26px;
+        }
+        p {
+            font-size: 24px;
+            font-weight: bold;
+        }
     }
     .nav-pane {
         height: $mobilePaneHeight;
         a {
             height: $mobilePaneHeight;
+            font-size: 24px;
         }
+    }
+    .menu {
+        background-color: black!important;
     }
 }

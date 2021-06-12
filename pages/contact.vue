@@ -130,7 +130,10 @@ textarea {
         height: 100px;
     }
     .btn-outline-light {
-        margin-top: 10px;
+        margin-top: 20px;
+    }
+    .form-group {
+        height: 46px;
     }
 }
 </style>
