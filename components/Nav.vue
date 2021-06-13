@@ -2,7 +2,7 @@
     <div class="container">
         <div v-if="navOpen" class="row">
             <div class="col-0 col-xl-1 curve-container">
-                <div class="curve d-none d-sm-block"></div>
+                <div class="curve d-none d-xl-block"></div>
             </div>
             <div class="col-12 col-xl-11 nav-container">
                 <div class="nav-toggle d-xl-none">

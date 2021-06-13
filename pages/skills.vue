@@ -43,7 +43,7 @@
                         </div>  
                         <div class="skill">
                             <div class="icon-container"><i class="fab fa-wordpress"></i></div>
-                            WordPress/Shopify/HubSpot/Salesforce
+                            Content Management Systems
                         </div> 
                         <div class="skill">
                             <div class="icon-container"><i class="fas fa-envelope-open-text"></i></div>
@@ -111,6 +111,9 @@ i {
         margin: 0;
         background-size: cover;
         background-position-x: center;
+    }
+    .content-container {
+        padding: 1em 3.5em;
     }
 }
 </style>

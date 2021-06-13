@@ -1,8 +1,8 @@
 <template>
     <div class="container">
         <div class="row mt-xl-auto">
-            <div class="col left d-none d-lg-block">
-              <IndexAnimation class="animation d-none d-lg-block"/>
+            <div class="col left d-none d-xl-block">
+              <IndexAnimation class="animation"/>
             </div>
             <div class="col d-flex right">
               <div class="mobile-animation">
@@ -87,8 +87,7 @@ h2 {
     align-items: center;
   }
   .quote-container {
-    padding: 12em 2em;
-    min-height: 20vh;
+    padding-top: 15em;
   }
   // animated backglow inspired by George Hastings https://codepen.io/georgehastings/pen/xgwxgo
 
