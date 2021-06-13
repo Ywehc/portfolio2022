@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 $paneHeight: 40px;
-$mobilePaneHeight: 50px;
+$mobilePaneHeight: 40px;
 $paneMargin: 3px 0px;
 
 $containerPadding: 20px;
@@ -62,6 +64,10 @@ $mobileImgHeight: 120px;
     position: $imgContainerPosition;
     right: 32px;
     width: 100%;
+    h1 {
+        font-family: 'Questrial', sans-serif;
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -80,7 +86,7 @@ $mobileImgHeight: 120px;
     }
     .content-container {
         width: auto;
-        border-bottom-right-radius: 115px;
+        border-bottom-right-radius: 0;
         height: auto;
         min-height: 520px;
         background-color: #202021;

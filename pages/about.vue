@@ -61,7 +61,8 @@
         width: 100%!important;
     }
     .content-container {
-        padding: 1em 2em;
+        padding: 1em;
+        margin-left: 15px;
     }
 }
 </style>

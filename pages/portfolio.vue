@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="front col-12 col-xl-6 order-xl-first">
-                <div class="content-container portfolio-content-container">
+                <div class="content-container">
                     <a href="https://www.cryptohawk.ca" target="_blank">
                     <div class="portfolio-card">
                         <div class="card-heading">
@@ -117,9 +117,11 @@ a {
         h5 {
             font-size: 18px;
         }
+        width: auto;
     }
-    .portfolio-content-container {
-        padding-top: 10px;
+    .content-container {
+        padding-right: 15px;
+        padding-top: 15px;
     }
 }
 </style>

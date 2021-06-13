@@ -113,7 +113,8 @@ i {
         background-position-x: center;
     }
     .content-container {
-        padding: 1em 3.5em;
+        padding: 1em 3em;
+        margin-left: 15px;
     }
 }
 </style>

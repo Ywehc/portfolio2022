@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    font-family: 'Questrial', sans-serif;
     a {
         color: white;
         font-size: 20px;
@@ -75,6 +76,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .container {
+        margin-left: 0;
+    }
     .pane-1, .pane-2, .pane-3, .pane-4, .pane-5 {
       background-image: none;
       width: 100%;
@@ -82,8 +86,9 @@
     }
     .link {
         margin: auto;
-        width: 100%!important;
         border-left: none!important;
+        border-radius: 5px;
+        width: auto!important;
     }
     .nav-container {
         position: fixed;
@@ -91,12 +96,13 @@
         width: 100%;
         z-index: 8;
         background-color: white;
-        padding: 0;
+        padding: 0em 0em 1em 0em;
     }
     .nav-toggle {
         margin: 0px auto;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 1em;
+        padding-bottom: .5em;
         color: white;
         i {
             font-size: 26px;
@@ -110,10 +116,23 @@
         height: $mobilePaneHeight;
         a {
             height: $mobilePaneHeight;
-            font-size: 24px;
+            font-size: 22px;
+            padding: 0em 1em;
+        }
+        a.nuxt-link-exact-active {
+            text-decoration: none;
         }
     }
     .menu {
         background-color: black!important;
+    }
+    .closed {
+        margin-left: 10em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .closed {
+        margin-left: auto;
     }
 }

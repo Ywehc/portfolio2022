@@ -7,9 +7,9 @@
             <div class="col d-flex right">
               <div class="mobile-animation">
                   <h1 class="title">Chris Kieran</h1>
-                  <h2 class="subtitle">Frontend Web Developer</h2>
+                  <h2 class="subtitle">Frontend Developer</h2>
               </div>
-              <div class="quote-container d-xl-none">
+              <div class="quote-container d-sm-none">
                 <p>"We do these things not because they are easy, but because we thought they were going to be easy."</p>
                 <p>- The Programmers' Credo</p>
               </div>
@@ -41,7 +41,11 @@ h1 {
   text-align: right;
 }
 h2 {
-  font-size: 24px;
+  font-size: 29px;
+  text-align: right;
+}
+h1, h2 {
+  font-family: 'Questrial', sans-serif;
 }
 .title, .subtitle {
   z-index: 3;
@@ -87,7 +91,10 @@ h2 {
     align-items: center;
   }
   .quote-container {
-    padding-top: 15em;
+    padding-top: 18em;
+    p {
+      font-size: 14px;
+    }
   }
   // animated backglow inspired by George Hastings https://codepen.io/georgehastings/pen/xgwxgo
 
