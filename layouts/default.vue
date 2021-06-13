@@ -51,9 +51,8 @@ html {
     min-height: 80vh;
     text-align: center;
     padding-right: 15px!important;
-    background-color: black;
     color: white;
-    overflow: scroll!important;
+    overflow: scroll;
   }
   .menu {
     padding-right: 15px;

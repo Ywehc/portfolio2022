@@ -1,5 +1,5 @@
 $paneHeight: 40px;
-$mobilePaneHeight: 60px;
+$mobilePaneHeight: 50px;
 $paneMargin: 3px 0px;
 
 $containerPadding: 20px;
@@ -83,6 +83,7 @@ $mobileImgHeight: 120px;
         border-bottom-right-radius: 115px;
         height: auto;
         min-height: 520px;
+        background-color: #202021;
     }
     .img-page-heading {
         height: $mobileImgHeight;

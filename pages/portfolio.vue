@@ -36,13 +36,12 @@
                         <p class="card-text">A fun React app built on Codepen which allows the user to generate a famous NHL hockey quote and Tweet it.</p>
                     </div>
                 </a>
+                <p class="d-none d-xl-block">This application was built with Nuxt.js.</p>
                 <a class="btn btn-primary" href="https://github.com/Ywehc" role="button" target="_blank">
                     <strong>Github  </strong><i class="fab fa-github"></i>
                 </a>
                 </div>
-                
             </div>
-            
         </div>
     </div>
 </template>
@@ -64,6 +63,8 @@ a {
     bottom: 228px;
 }
 .portfolio-card {
+    background-color: white;
+    color: black;
     width: 350px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -81,9 +82,9 @@ a {
     }
 }
 .portfolio-card:hover {
-    border: 1px solid white;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
+    border-color: white;
     cursor: pointer;
 }
 .card-heading {
@@ -113,6 +114,9 @@ a {
     .portfolio-card {
         text-align: left;
         margin-bottom: 10px;
+        h5 {
+            font-size: 18px;
+        }
     }
     .portfolio-content-container {
         padding-top: 10px;
