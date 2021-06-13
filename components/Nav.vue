@@ -26,7 +26,7 @@
             </div>
         </div>
         <div v-else>
-            <div class="nav-toggle" @click="navOpen = true">
+            <div class="nav-toggle closed" @click="navOpen = true">
                 <i class="far fa-caret-square-up"></i>
                 <p class="text-center">menu</p>
             </div>
