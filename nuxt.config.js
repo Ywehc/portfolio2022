@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'p2021',
+    title: 'Chris Kieran - Frontend Web Developer',
     htmlAttrs: {
       lang: 'en'
     },
