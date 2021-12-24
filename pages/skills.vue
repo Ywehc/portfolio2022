@@ -66,8 +66,8 @@
                             SEO
                         </div>
                         <div class="skill">
-                            <div class="icon-container"><i class="fab fa-adobe"></i></div>
-                            Photoshop
+                            <div class="icon-container"><i class="fas fa-tachometer-alt"></i></div>
+                            Testing
                         </div>
                 </div>
             </div>
