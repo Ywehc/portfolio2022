@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mt-xl-auto">
             <div class="col left d-none d-xl-block">
-              <IndexAnimation class="animation"/>
+              <RecursiveTree class="animation"/>
             </div>
             <div class="col d-flex right">
               <div class="mobile-animation">
