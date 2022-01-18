@@ -10,10 +10,11 @@
         </div>
         <div class="front col-12 col-xl-7 order-xl-first">
             <div class="content-container">
-                <p>What draws me to web development and especially frontend development is how the work calls for a combination of technical precision, creative thinking and user empathy.</p>
-                <p>The career path I'm on is really exciting. I love bringing code to life on the frontend with Javascript (mostly Vue.js) and CSS, but have also built backend foundations in PHP, Python, and Node.js.</p>
-                <p class="p3">The best thing about being a developer is collaboratively building awesome software as part of a team of talented people while still being able to spend lots of time with my wife, son and dog.</p>
-                <p class="p4">Outside of web development I'm in to nature, dogs, travel, music, astronomy, hockey and fantasy hockey, snowboarding, spicy foods and more.</p>
+                <p>Hailing from Toronto, Ontario I now live in Calgary, Alberta with my incredible family.</p>
+                <p>What draws me to web development is the breadth and depth of the field and learning something new every day.</p>
+                <p>I think what makes it such a great fit for me is I posess a combination of strong problem solving abilities, technical precision, creative thinking and user empathy.</p>
+                <p class="p3">The career path I'm on is really exciting! I love bringing code to life on the frontend with JavaScript and CSS.</p>
+                <p class="p4">Outside of software development I enjoy spending time with my wife, son and dog, hiking, snowboarding, travel, listening to music and managing my fantasy hockey team.</p>
             </div>
         </div>
     </div>
