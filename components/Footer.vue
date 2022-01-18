@@ -2,6 +2,9 @@
     <div class="container">
         <div class="row mx-auto">
             <div class="col content text-center">
+                <div v-if="$route.path == '/' " class="icon-container">
+                    <a href="/" class="link"><i class="fas fa-tree"></i></a>
+                </div>
                 <div class="icon-container">
                     <a href="https://github.com/Ywehc" role="button" target="_blank">
                         <i class="fab fa-github-square"></i>

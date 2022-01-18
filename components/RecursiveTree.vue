@@ -1,12 +1,14 @@
 <template>
     <div class="container">
-        <canvas id="forest" height="900" width="1200"></canvas>
+        <canvas id="forest" height="600" width="1200"></canvas>
     </div>
 </template>
 
 <script>
 import JQuery from 'jquery';
 window.$ = JQuery;
+
+// The fantastic function below to procedurally generate the tree was written by Ricky Eckhardt (https://codepen.io/rickyeckhardt/pen/Gkpez) and modified by me.
 
 export default {
     mounted() {
@@ -68,22 +70,5 @@ export default {
     position: absolute;
     margin-left: -40em;
 }
-
-// body {
-// 	zoom: .75;
-// }
-
-// div {
-//   width: 100%;
-//   background: linear-gradient(to bottom, #ecf0f1 400px,#16a085 400px);
-// }
-
-// .container {
-//   position: relative;
-//   width: 1400px;
-//   margin: 0 auto;
-// }
-
-
 
 </style>
