@@ -9,10 +9,6 @@
                   <h1 class="title">Chris Kieran</h1>
                   <h2 class="subtitle">Frontend Developer</h2>
               </div>
-              <div class="quote-container d-sm-none">
-                <p>"We do these things not because they are easy, but because we thought they were going to be easy."</p>
-                <p>- The Programmers' Credo</p>
-              </div>
               <div class="nav-pane pane-7 d-none d-xl-block"></div>
               <div class="nav-pane pane-6 d-none d-xl-block"></div>
             </div>
@@ -128,7 +124,7 @@ h1, h2 {
   .mobile-animation {
     margin-top: 20vh;
     position: relative;
-    height: 30vw;
+    height: 20vw;
     line-height: 30vw;
     text-align: center;
     color: #252B37;
