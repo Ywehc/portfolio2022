@@ -115,9 +115,9 @@
     .nav-pane {
         height: $mobilePaneHeight;
         a {
-            height: $mobilePaneHeight;
+            height: 34px;
             font-size: 22px;
-            padding: 0em 1em;
+            padding: 0em 2.5em;
         }
         a.nuxt-link-exact-active {
             text-decoration: none;

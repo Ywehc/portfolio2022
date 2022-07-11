@@ -10,10 +10,10 @@
         </div>
         <div class="front col-12 col-xl-7 order-xl-first">
             <div class="content-container">
-                <p>Hailing from Toronto, Ontario I now live in Calgary, Alberta with my incredible family.</p>
+                <p>Hailing from Toronto, Ontario I now live in Calgary, Alberta with my wonderful family.</p>
                 <p>What draws me to web development is the breadth and depth of the field and learning something new every day.</p>
-                <p>I think what makes it such a great fit for me is I posess a combination of strong problem solving abilities, technical precision, creative thinking and user empathy.</p>
-                <p class="p3">The career path I'm on is really exciting! I love bringing code to life on the frontend with JavaScript and CSS.</p>
+                <!-- <p>I think what makes it such a great fit for me is I posess a combination of strong problem solving abilities, technical precision, creative thinking and user empathy.</p> -->
+                <p class="p3">The career path I'm on is really exciting! I love bringing code to life and building interactive things with JavaScript and CSS.</p>
                 <p class="p4">Outside of software development I enjoy spending time with my wife, son and dog, hiking, snowboarding, travel, listening to music and managing my fantasy hockey team.</p>
             </div>
         </div>
@@ -62,8 +62,10 @@
         width: 100%!important;
     }
     .content-container {
-        padding: 1em;
-        margin-left: 15px;
+        padding: 1em 2em;
+        background: linear-gradient(to bottom right, #422454 0%, black 100%) 100% no-repeat;
+        text-align: left;
+        font-size: 24px;
     }
 }
 </style>
