@@ -11,19 +11,11 @@
                 <div class="content-container">
                         <div class="skill">
                             <div class="icon-container"><i class="fab fa-js"></i></div>
-                            JavaScript
+                            JavaScript / Vue.js / React.js
                         </div>
                         <div class="skill">
                             <div class="icon-container"><i class="fab fa-css3-alt"></i></div>
-                            CSS/SASS/Bootstrap
-                        </div>
-                        <div class="skill">
-                            <div class="icon-container"><i class="fab fa-vuejs"></i></div>
-                            Vue.js/Nuxt.js
-                        </div>
-                        <div class="skill">
-                            <div class="icon-container"><i class="fab fa-react"></i></div>
-                            React.js
+                            CSS & many CSS frameworks
                         </div>
                         <div class="skill">
                             <div class="icon-container"><i class="fas fa-code"></i></div>
@@ -115,6 +107,7 @@ i {
     .content-container {
         padding: 1em 3em;
         margin-left: 15px;
+        background: linear-gradient(to bottom right, #2a2454 0%, black 100%) 100% no-repeat;
     }
 }
 </style>

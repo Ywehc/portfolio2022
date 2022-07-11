@@ -138,5 +138,8 @@ textarea {
     .contact-form {
         margin: auto;
     }
+    .content-container {
+        background: linear-gradient(to bottom right, #265424 0%, black 100%) 100% no-repeat;
+    }
 }
 </style>

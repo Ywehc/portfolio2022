@@ -117,11 +117,15 @@ a {
         h5 {
             font-size: 18px;
         }
+        p {
+            font-size: 16px;
+        }
         width: auto;
     }
     .content-container {
         padding-right: 15px;
         padding-top: 15px;
+        background: linear-gradient(to bottom right, #542624 0%, black 100%) 100% no-repeat;
     }
 }
 </style>
