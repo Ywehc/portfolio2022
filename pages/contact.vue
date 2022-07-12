@@ -11,7 +11,7 @@
                 <div class="content-container">
                     <div class="row">
                         <form   class="contact-form" 
-                                action="https://formspree.io/chriskierandevelopment@gmail.com" 
+                                action="https://formspree.io/f/chriskierandevelopment@gmail.com" 
                                 target="_blank" 
                                 method="POST"
                         >   
@@ -126,7 +126,7 @@ textarea {
         background-position-x: center;
     }
     textarea {
-        height: 140px;
+        height: 180px;
     }
     .btn-outline-light {
         margin-top: 20px;
