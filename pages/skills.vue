@@ -57,10 +57,10 @@
                             <div class="icon-container"><i class="fas fa-search"></i></div>
                             SEO
                         </div>
-                        <div class="skill">
+                        <!-- <div class="skill">
                             <div class="icon-container"><i class="fas fa-tachometer-alt"></i></div>
                             Testing
-                        </div>
+                        </div> -->
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@ i {
         background-position-x: center;
     }
     .content-container {
-        padding: 1em 3em;
+        padding: 1em 2em;
         margin-left: 15px;
         background: linear-gradient(to bottom right, #2a2454 0%, black 100%) 100% no-repeat;
     }
