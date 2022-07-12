@@ -85,7 +85,7 @@ i {
     bottom: 228px;
 }
 .skill {
-    font-size: 17px;
+    font-size: $paragraphFontSize;
     display: flex;
 }
 .icon-container {
@@ -108,6 +108,7 @@ i {
         padding: 1em 2em;
         margin-left: 15px;
         background: linear-gradient(to bottom right, #2a2454 0%, black 100%) 100% no-repeat;
+        font-size: $mobileParagraphFontSize;
     }
 }
 </style>
