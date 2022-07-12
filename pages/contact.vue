@@ -126,7 +126,7 @@ textarea {
         background-position-x: center;
     }
     textarea {
-        height: 180px;
+        height: 160px;
     }
     .btn-outline-light {
         margin-top: 20px;

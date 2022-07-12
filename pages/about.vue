@@ -62,10 +62,11 @@
         width: 100%!important;
     }
     .content-container {
-        padding: 1em 1.5em 0 1.5em;
+        padding: 1em 2em 0 2em;
         background: linear-gradient(to bottom right, #422454 0%, black 100%) 100% no-repeat;
         text-align: left;
-        font-size: 24px;
+        font-size: $mobileParagraphFontSize;
+        line-height: normal;
     }
 }
 </style>
