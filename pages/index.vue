@@ -85,7 +85,8 @@ h1, h2 {
   }
   .right {
     align-items: center;
-    height: 480px;
+    height: 60vh;
+    overflow: hidden;
   }
   .quote-container {
     padding-top: 18em;

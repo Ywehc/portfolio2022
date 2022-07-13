@@ -1,6 +1,7 @@
 <template>
     <div class="container">
-        <div v-if="navOpen" class="row">
+        <!-- <div v-if="navOpen" class="row"> -->
+        <div class="row">
             <div class="col-0 col-xl-1 curve-container">
                 <div class="curve d-none d-xl-block"></div>
             </div>
@@ -25,9 +26,9 @@
                 </div>
             </div>
             <div class="col-12 col-xl-11 nav-container d-xl-none">
-                <div class="nav-toggle">
+                <!-- <div class="nav-toggle">
                     <i class="far fa-caret-square-down" @click="navOpen = false"></i>
-                </div>
+                </div> -->
                 <div class="row mobile-menu mx-auto">
                     <div class="col-6">
                         <div class="nav-pane">
@@ -54,12 +55,12 @@
                 </div>
             </div>
         </div>
-        <div v-else>
+        <!-- <div v-else>
             <div class="nav-toggle closed" @click="navOpen = true">
                 <i class="far fa-caret-square-up"></i>
                 <p class="text-center">menu</p>
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 

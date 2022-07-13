@@ -119,6 +119,7 @@ textarea {
     }
     .front {
         padding: 0;
+        min-height: 0;
     }
     .title-container {
         bottom: 0;
@@ -129,7 +130,7 @@ textarea {
         background-position-x: center;
     }
     textarea {
-        height: 160px;
+        height: 140px;
     }
     .btn-outline-light {
         margin-top: 20px;
