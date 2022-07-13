@@ -114,6 +114,9 @@ textarea {
 }
 
 @media screen and (max-width: 1200px) {
+    form {
+        width: 300px;
+    }
     .front {
         padding: 0;
     }
@@ -140,6 +143,7 @@ textarea {
     }
     .content-container {
         background: linear-gradient(to bottom right, #265424 0%, black 100%) 100% no-repeat;
+        padding: 0;
     }
 }
 </style>
