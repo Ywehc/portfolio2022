@@ -46,7 +46,6 @@ html {
     height: auto;
   }
   .menu {
-    
     padding-right: 15px;
     .nav-container {
       background: black!important;

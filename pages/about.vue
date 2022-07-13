@@ -50,6 +50,7 @@
 @media screen and (max-width: 1200px) {
     .front {
         padding: 0;
+        min-height: 0;
     }
     .title-container {
         bottom: 0;
