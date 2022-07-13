@@ -26,6 +26,7 @@ html {
   margin: auto;
 }
 .main {
+  height: 460px;
   padding-right: 9em!important;
 }
 .menu {
@@ -42,8 +43,10 @@ html {
     padding-right: 15px!important;
     color: white;
     overflow: scroll;
+    height: auto;
   }
   .menu {
+    
     padding-right: 15px;
     .nav-container {
       background: black!important;
