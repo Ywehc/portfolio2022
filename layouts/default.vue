@@ -26,7 +26,6 @@ html {
   margin: auto;
 }
 .main {
-  height: 460px;
   padding-right: 9em!important;
 }
 .menu {
@@ -39,7 +38,6 @@ html {
     height: 100vh;
   }
   .main {
-    min-height: 80vh;
     text-align: center;
     padding-right: 15px!important;
     color: white;
